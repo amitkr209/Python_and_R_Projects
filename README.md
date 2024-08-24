@@ -104,6 +104,7 @@ plt.show()
 - Data Engineers require more specialized technical skills **(AWS, Azure, Spark)** compared to Data Analysts and Data Scientists who are expected to be proficient in more general data management and analysis tools (Excel, Tableau).
 - **Python** is a versatile skill, highly demanded across all three roles, but most prominently for *Data Scientists* (70%) and *Data Engineers* (61%).
 
+
 ### Visualize Data for United States
 ```python
 fig, ax = plt.subplots(len(job_titles), 1)
