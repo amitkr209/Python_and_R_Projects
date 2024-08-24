@@ -28,16 +28,16 @@ This section outlines the steps taken to prepare the data for analysis, ensuring
 ## Import & Clean Up Data
 I start by importing necessary libraries and loading the dataset, followed by initial data cleaning tasks to ensure data quality.
 
-```
-# Importing Libraries
-import ast
-import pandas as pd
-import seaborn as sns
+```python
+# Importing the Libraries
 from datasets import load_dataset
-import matplotlib.pyplot as plt  
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import ast
 
-# Loading Data
-dataset = load_dataset('lukebarousse/data_jobs')
+# Loading Dataset
+dataset = load_dataset("lukebarousse/data_jobs")
 df = dataset['train'].to_pandas()
 
 # Data Cleanup
@@ -45,3 +45,107 @@ df['job_posted_date'] = pd.to_datetime(df['job_posted_date'])
 df['job_skills'] = df['job_skills'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else x)
 ```
 
+## Filter US and India Jobs
+To focus my analysis on the U.S. and India job market, I apply filters to the dataset, narrowing down to roles based in the United States and India.
+```python
+df_US = df[df['job_country'] == 'United States']
+
+df_IND = df[df['job_country'] == 'United States']
+```
+
+# The Analysis
+Each Jupyter notebook for this project aimed at investigating specific aspects of the data job market. Here’s how I approached each question:
+
+## 1. What are the most demanded skills for the top 3 most popular data roles?
+To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I should pay attention to depending on the role I'm targeting.
+
+View my notebook with detailed steps here: [2_Skill_Demand](https://github.com/amitkr209/Python_Data_Project/blob/main/3_Project/2_Skill_Count.ipynb).
+
+### Visualize Data for India
+```python
+fig, ax = plt.subplots(len(job_titles), 1)
+
+sns.set_theme(style='ticks')
+
+for i, job_title in enumerate(job_titles):
+    df_plot = df_skills_per[df_skills_per['job_title_short'] == job_title].head(5)
+    sns.barplot(data=df_plot,
+                x='skill_percentage',
+                y='job_skills',
+                ax = ax[i],
+                hue='skill_count',
+                palette='dark:b_r')
+    ax[i].set_title(job_title)
+    ax[i].set_xlabel('')
+    ax[i].set_ylabel('')
+    ax[i].legend().set_visible(False)
+    ax[i].set_xlim(0, 75)
+
+    # remove the x-axis tick labels for better readability
+    if i != len(job_titles) - 1:
+        ax[i].set_xticks([])
+
+    # label the percentage on the bars
+    for n, v in enumerate(df_plot['skill_percentage']):
+        ax[i].text(v, n, f'{v: .0f}%', va='center')
+
+fig.suptitle("Likelihood  of Skills Requested in India Job Postings", fontsize=15)
+fig.tight_layout()
+plt.show()
+```
+
+### Result:
+![Likelihood of Skills Requested in the India Job Postings](C:\Users\gaura\OneDrive\Pictures\Desktop\Amit's Folder\Python_Data_Project\Likelihood of Skills Requested in the India Job Postings.png)
+
+*Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each.*
+
+### Insights:
+- **SQL** is the most requested skill for *Data Analysts* and *Data Engineer*, with it in over half the job postings for both roles. For *Data Scientist*, **Python** is the most sought-after skill, appearing in 70% of job postings.
+- Data Engineers require more specialized technical skills **(AWS, Azure, Spark)** compared to Data Analysts and Data Scientists who are expected to be proficient in more general data management and analysis tools (Excel, Tableau).
+- **Python** is a versatile skill, highly demanded across all three roles, but most prominently for *Data Scientists* (70%) and *Data Engineers* (61%).
+
+### Visualize Data for United States
+```python
+fig, ax = plt.subplots(len(job_titles), 1)
+
+sns.set_theme(style='ticks')
+
+for i, job_title in enumerate(job_titles):
+    df_plot = df_skill_perc[df_skill_perc['job_title_short'] == job_title].head(5)
+    sns.barplot(data=df_plot,
+                x='skill_percentage',
+                y='job_skills',
+                hue='skill_count',
+                palette='dark:b_r',
+                ax=ax[i],
+                legend=False)
+    sns.despine()
+    ax[i].set_title(job_title)
+    ax[i].set_xlabel('')
+    ax[i].set_ylabel('')
+    ax[i].set_xlim(0, 75)
+
+    # # remove the x-axis tick labels for better readability
+    if i != len(job_titles) - 1:
+        ax[i].set_xticks([])
+
+    # label the percentage on the bars
+    for n, v in enumerate(df_plot['skill_percentage']):
+        ax[i].text(v + 1, n, f'{v: .0f}%', va='center')
+
+fig.suptitle("Likelihood of Skills Requested in US Job Postings", fontsize=15)
+fig.tight_layout()
+plt.show()
+```
+
+### Result:
+### Result:
+![Likelihood of Skills Requested in the India Job Postings](./Likelihood of Skills Requested in US Job Postings.png)
+
+
+*Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each.*
+
+### Insights:
+- **SQL** is the most requested skill for *Data Analysts* and *Data Engineers*, with it in over half the job postings for both roles. For *Data Scientists*, **Python** is the most sought-after skill, appearing in 72% of job postings.
+- *Data Engineers* require more specialized technical skills **(AWS, Azure, Spark)** compared to *Data Analysts* and *Data Scientists* who are expected to be proficient in more general data management and analysis tools (Excel, Tableau).
+- **Python** is a versatile skill, highly demanded across all three roles, but most prominently for *Data Scientists* (72%) and Data Engineers (65%).
