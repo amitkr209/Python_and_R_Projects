@@ -95,7 +95,7 @@ plt.show()
 ```
 
 ### Result:
-![Likelihood of Skills Requested in the India Job Postings](https://github.com/amitkr209/Python_Data_Project/blob/main/Likelihood%20of%20Skills%20Requested%20in%20the%20India%20Job%20Postings.png)
+![Likelihood of Skills Requested in the India Job Postings](https://github.com/amitkr209/Python_Data_Project/blob/main/3_Project/Images/Likelihood%20of%20Skills%20Requested%20in%20the%20India%20Job%20Postings.png)
 
 *Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each.*
 
@@ -139,7 +139,7 @@ plt.show()
 ```
 
 ### Result:
-![Likelihood of Skills Requested in the India Job Postings](https://github.com/amitkr209/Python_Data_Project/blob/main/Likelihood%20of%20Skills%20Requested%20in%20US%20Job%20Postings.png)
+![Likelihood of Skills Requested in the United States Job Postings](https://github.com/amitkr209/Python_Data_Project/blob/main/3_Project/Images/Likelihood%20of%20Skills%20Requested%20in%20US%20Job%20Postings.png))
 
 
 *Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each.*
