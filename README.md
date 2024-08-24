@@ -97,7 +97,7 @@ plt.show()
 ### Result:
 ![Likelihood of Skills Requested in the India Job Postings](https://github.com/amitkr209/Python_Data_Project/blob/main/3_Project/Images/Likelihood%20of%20Skills%20Requested%20in%20the%20India%20Job%20Postings.png)
 
-*Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each.*
+*Bar graph visualizing the top 3 data roles and their top 5 skills associated with each.*
 
 ### Insights:
 - **SQL** is the most requested skill for *Data Analysts* and *Data Engineer*, with it in over half the job postings for both roles. For *Data Scientist*, **Python** is the most sought-after skill, appearing in 70% of job postings.
@@ -143,7 +143,7 @@ plt.show()
 ![Likelihood of Skills Requested in the United States Job Postings](https://github.com/amitkr209/Python_Data_Project/blob/main/3_Project/Images/Likelihood%20of%20Skills%20Requested%20in%20US%20Job%20Postings.png))
 
 
-*Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each.*
+*Bar graph visualizing the top 3 data roles and their top 5 skills associated with each.*
 
 ### Insights:
 - **SQL** is the most requested skill for *Data Analysts* and *Data Engineers*, with it in over half the job postings for both roles. For *Data Scientists*, **Python** is the most sought-after skill, appearing in 72% of job postings.
