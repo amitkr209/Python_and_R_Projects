@@ -100,17 +100,18 @@ plt.show()
 *Horizontal Bar graph visualizing the top 3 data roles and their top 5 skills associated with each.*
 
 ### Insights Likelihood of Skills in India Job Postings:
-- **SQL Dominance Across Roles:** SQL is the most sought-after skill across all three roles. It is particularly dominant in the Data Engineer role, where `68%` of job postings mention it, followed closely by Data Analyst role at `52%`.
+- **SQL Dominance Across Roles:** *SQL* is the most sought-after skill across all three roles. It is particularly dominant in the *Data Engineer role, where `68%` of job postings mention it, followed closely by *Data Analyst role* at `52%`.
 
-- **Python’s High Demand:** Python is a close contender, especially for Data Scientists, where it leads with `70%` of job postings requiring this skill. It also holds strong relevance for Data Engineers `61%` and Data Analysts `36%`.
+- **Python’s High Demand:** *Python* is a close contender, especially for *Data Scientists*, where it leads with `70%` of job postings requiring this skill. It also holds strong relevance for *Data Engineers* `61%` and *Data Analysts* `36%`.
 
-- **Specialized Skills in Data Engineering:** Data Engineering roles emphasize cloud and big data technologies. Besides SQL and Python, there is significant demand for **Spark `38%`, AWS `37%`, and Azure `36%`**, reflecting the technical expertise required in this role.
+- **Specialized Skills in Data Engineering:** *Data Engineering roles* emphasize cloud and big data technologies. Besides *SQL and Python*, there is significant demand for **Spark `38%`, AWS `37%`, and Azure `36%`**, reflecting the technical expertise required in this role.
+
 - **Role-Specific Skill Trends:**
-    - **Data Analysts:** Besides SQL and Python, traditional tools like Excel `35%` and data visualization tools like Tableau `27%` and Power BI `21%` are in demand, highlighting the analytical and reporting focus of this role.
+    - **Data Analysts:** Besides *SQL and Python*, traditional tools like *Excel* `35%` and data visualization tools like *Tableau `27%` and Power BI `21%`* are in demand, highlighting the analytical and reporting focus of this role.
 
-    - **Data Scientists:** R, although not as dominant as Python or SQL, is still significant with `33%` of job postings mentioning it, underscoring its importance in statistical analysis and machine learning.
+    - **Data Scientists:** *R*, although not as dominant as Python or SQL, is still significant with `33%` of job postings mentioning it, underscoring its importance in statistical analysis and machine learning.
 
-- **Power BI’s Limited Appeal:** Power BI shows the least demand among the listed skills, especially in Data Analyst roles, where only `21%` of job postings mention it.
+- **Power BI’s Limited Appeal:** *Power BI* shows the least demand among the listed skills, especially in *Data Analyst roles*, where only `21%` of job postings mention it.
 
 ### Visualize Data for United States
 ```python
@@ -153,26 +154,26 @@ plt.show()
 *Bar graph visualizing the top 3 data roles and their top 5 skills associated with each.*
 
 ### Insights Likelihood of Skills in US Job Postings:
-- **Python Leads for Data Scientists:** In the U.S., Python is the most requested skill for Data Scientists, with `72%` of job postings highlighting it. This emphasizes Python's critical role in the data science domain.
+- **Python Leads for Data Scientists:** In the U.S., *Python* is the most requested skill for *Data Scientists*, with `72%` of job postings highlighting it. This emphasizes Python's critical role in the data science domain.
 
-- **SQL’s Consistency Across Roles:** SQL remains a foundational skill across all three roles. It is particularly crucial for Data Engineers `68%` and Data Analysts `51%`, indicating that strong database management skills are indispensable.
+- **SQL’s Consistency Across Roles:** *SQL* remains a foundational skill across all three roles. It is particularly crucial for *Data Engineers* `68%` and *Data Analysts* `51%`, indicating that strong database management skills are indispensable.
 
-- **Excel’s Importance for Data Analysts:** Excel continues to be a highly demanded skill for Data Analysts in the U.S., with `41%` of job postings requiring it. This suggests that Excel remains a staple tool for data analysis and reporting.
+- **Excel’s Importance for Data Analysts:** *Excel* continues to be a highly demanded skill for *Data Analysts* in the U.S., with `41%` of job postings requiring it. This suggests that Excel remains a staple tool for data analysis and reporting.
 
-- **Emerging Cloud Skills for Data Engineers:** In Data Engineering roles, cloud platforms such as *AWS* are in significant demand `43%`, along with *Azure* `32%`. This highlights the increasing importance of cloud computing skills in data engineering within the United States.
+- **Emerging Cloud Skills for Data Engineers:** In *Data Engineering roles*, cloud platforms such as *AWS* are in significant demand `43%`, along with *Azure* `32%`. This highlights the increasing importance of cloud computing skills in data engineering within the United States.
 
-- **SAS and Tableau for Data Analysts:** For U.S. Data Analysts, tools like *SAS* `19%` and *Tableau* `28%` are also in demand, though not as prominent as SQL or Excel. Tableau’s demand suggests that data visualization skills are still crucial, though the competition with Power BI is evident.
+- **SAS and Tableau for Data Analysts:** For U.S. Data Analysts, tools like *SAS* `19%` and *Tableau* `28%` are also in demand, though not as prominent as SQL or Excel. Tableau’s demand suggests that data visualization skills are still crucial, though the competition with *Power BI* is evident.
 
 ### Comparison between both Graphs
-- **SQL Dominance:** SQL is the top skill in both India and the U.S. across all roles. However, the demand for SQL is slightly higher in India, especially for Data Engineers `68%` compared to the U.S. This suggests a more uniform reliance on SQL in India, while in the U.S., there may be a broader distribution of skills.
+- **SQL Dominance:** *SQL* is the top skill in both India and the U.S. across all roles. However, the demand for *SQL* is slightly higher in India, especially for *Data Engineers* `68%` compared to the U.S. This suggests a more uniform reliance on SQL in India, while in the U.S., there may be a broader distribution of skills.
 
-- **Python’s Critical Role:** Python is highly demanded in both countries, particularly for Data Scientists. The demand is slightly higher in the U.S. `72%` compared to India `70%`, indicating its global importance in data science. However, Python’s demand for Data Engineers is slightly lower in India `61%` compared to the U.S. `65%`, highlighting its versatility.
+- **Python’s Critical Role:** *Python* is highly demanded in both countries, particularly for *Data Scientists*. The demand is slightly higher in the U.S. `72%` compared to India `70%`, indicating its global importance in data science. However, Python’s demand for *Data Engineers* is slightly lower in India `61%` compared to the U.S. `65%`, highlighting its versatility.
 
-- **Excel vs. Cloud Skills:** In the U.S., Excel remains crucial for Data Analysts `41%`, while cloud skills like AWS are more emphasized for Data Engineers `43%`. In India, Excel is also significant `35%`, but the demand for cloud skills like Azure and AWS is slightly lower. This reflects the U.S. market’s stronger focus on cloud technologies.
+- **Excel vs. Cloud Skills:** In the U.S., Excel remains crucial for *Data Analysts* `41%`, while cloud skills like *AWS* are more emphasized for *Data Engineers* `43%`. In India, *Excel* is also significant `35%`, but the demand for cloud skills like *Azure and AWS* is slightly lower. This reflects the U.S. market’s stronger focus on cloud technologies.
 
-- **Tableau vs. Power BI:** Tableau is consistently in demand in both countries, especially for Data Analysts, with higher emphasis in the U.S. `28%` compared to India `27%`. Power BI, on the other hand, is gaining more traction in India `21%` compared to its absence in the U.S. charts, indicating regional preferences in data visualization tools.
+- **Tableau vs. Power BI:** *Tableau* is consistently in demand in both countries, especially for *Data Analysts*, with higher emphasis in the U.S. `28%` compared to India `27%`. *Power BI*, on the other hand, is gaining more traction in India `21%` compared to its absence in the U.S. charts, indicating regional preferences in data visualization tools.
 
-- **R and SAS:** R is more relevant for Data Scientists in the U.S. `44%` compared to India`33%`, reflecting its specialized use in statistical analysis. SAS appears in the U.S. Data Analyst role `19%` but is absent in the Indian context, suggesting its niche application is more pronounced in the U.S.
+- **R and SAS:** *R* is more relevant for *Data Scientists* in the U.S. `44%` compared to India`33%`, reflecting its specialized use in statistical analysis. *SAS* appears in the *U.S. Data Analyst* role `19%` but is absent in the Indian context, suggesting its niche application is more pronounced in the U.S.
 
 ## 2. How are in-demand skills trending for Data Analysts?
 To find how skills are trending in 2023 for Data Analysts, I filtered data analyst positions and grouped the skills by the month of the job postings. This got me the top 5 skills of data analysts by month, showing how popular skills were throughout 2023.
@@ -215,11 +216,11 @@ plt.show()
 *Line graph visualizing the trending top skills for data analysts in the US in 2023.*
 
 ### Insights of Treding Top Skills in United States:
-- **SQL remains the most consistently demanded skill throughout the year**, holding the top position with over 50% likelihood in job postings for most of the year. However, there is a gradual decline in its demand towards the end of the year, ending slightly above `45%`.
+- **SQL remains the most consistently demanded skill throughout the year**, holding the top position with over `50%` likelihood in job postings for most of the year. However, there is a gradual decline in its demand towards the end of the year, ending slightly above `45%`.
 
 - **Excel shows a significant downward trend** throughout the year. It starts with a steady demand just above `40%` but experiences a noticeable decline from July onwards, dipping below `35%` by November before showing a sharp increase in December.
 
-- **Tableau and Python exhibit similar demand levels**, with both skills remaining relatively stable between `25%` and `30%` throughout the year. Python initially has a slight edge, but Tableau's demand rises slightly towards the end of the year, matching Python's by December.
+- **Tableau and Python exhibit similar demand levels**, with both skills remaining relatively stable between `25%` and `30%` throughout the year. *Python* initially has a slight edge, but *Tableau's* demand rises slightly towards the end of the year, matching Python's by December.
 
 - **SAS, though consistently the least demanded skill** among the five, maintains a steady presence with a likelihood between `20%` and `25%` in job postings throughout the year. There is a slight increase in demand in December, aligning with the overall trend of skills gaining traction towards the year's end.
 
@@ -251,17 +252,17 @@ plt.show()
 *Line graph visualizing the trending top skills for data analysts in the India in 2023.*
 
 ### Insights of Treding Top Skills in India:
-- **SQL remains the most consistently demanded skill** throughout the year, starting strong with `over 50%` likelihood in job postings. However, there is a slight decline in its demand towards the end of the year, stabilizing at around 50%.
+- **SQL remains the most consistently demanded skill** throughout the year, starting strong with `over 50%` likelihood in job postings. However, there is a slight decline in its demand towards the end of the year, `stabilizing at around 50%`.
 
-- **Python and Excel show competitive demand**, with Python starting higher but Excel surpassing it in a few months. Both skills exhibit fluctuations, particularly in the middle of the year, but Excel maintains a slight upward trend, ending the year with similar demand as Python.
+- **Python and Excel show competitive demand**, with *Python* starting higher but *Excel* surpassing it in a few months. Both skills exhibit fluctuations, particularly in the middle of the year, but Excel maintains a slight upward trend, ending the year with similar demand as Python.
 
-- **Tableau shows a steady demand pattern** throughout the year, though it generally remains lower than both SQL and Python. There is a notable decline in the latter half of the year, ending with less than `30%` likelihood in job postings.
+- **Tableau shows a steady demand pattern** throughout the year, though it generally remains lower than both *SQL and Python*. There is a notable decline in the latter half of the year, ending with `less than 30%` likelihood in job postings.
 
 - **Power BI, though the least demanded skill** among the five, shows a significant upward trend from July onwards. It begins the year at a low point but consistently climbs, peaking in September and maintaining this elevated demand through to December.
 
 ### Comparison between both Line Graphs
-- **Demand Trends**: SQL remains the top skill in both countries, but the U.S. shows a more noticeable decline in SQL and Excel demand towards the end of the year. In contrast, India maintains more consistent demand across the skills, with Excel and Power BI showing upward trends.
+- **Demand Trends**: *SQL* remains the top skill in both countries, but the U.S. shows a more noticeable decline in SQL and Excel demand towards the end of the year. In contrast, India maintains more consistent demand across the skills, with *Excel and Power BI* showing upward trends.
 
-- **Skill Dynamics**: Python and Tableau show similar stability in both countries, but Tableau is more emphasized in the U.S., while Power BI is gaining traction in India. SAS in the U.S. remains a stable but less in-demand skill, reflecting its niche usage.
+- **Skill Dynamics**: *Python and Tableau* show similar stability in both countries, but *Tableau* is more emphasized in the U.S., while *Power BI* is gaining traction in India. SAS in the U.S. remains a stable but less in-demand skill, reflecting its niche usage.
 
-- **Market Dynamics**: The data suggests that while both markets value foundational skills like SQL and Excel, the U.S. is experiencing shifts in demand towards the end of the year, possibly reflecting changing industry needs or emerging trends. India, on the other hand, shows steadier demand with gradual growth in certain tools like Power BI.
+- **Market Dynamics**: The data suggests that while both markets value foundational skills like *SQL and Excel*, the U.S. is experiencing shifts in demand towards the end of the year, possibly reflecting changing industry needs or emerging trends. India, on the other hand, shows steadier demand with gradual growth in certain tools like *Power BI*.
