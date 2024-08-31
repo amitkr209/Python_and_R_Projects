@@ -289,10 +289,12 @@ plt.ylabel("")
 plt.gca().xaxis.set_major_formatter(plt.FuncFormatter(lambda x, pos: f'${int(x/1000)}K'))
 plt.show()
 ```
-*Box plot visualizing the salary distributions for the top 6 data job titles.* 
+
 
 ### Result:
 ![Salary Distribution of Data Jobs in the United States](https://github.com/amitkr209/Python_Data_Project/blob/main/3_Project/Images/Salary%20Distribution%20of%20data%20jobs%20in%20the%20United%20States.png)
+
+*Box plot visualizing the salary distributions for the top 6 data job titles.* 
 
 ### Insights:
 - **Senior Data Scientist roles command the highest salaries**, with the median salary hovering around `$200K` per year. The distribution also shows a wide range, with some individuals earning well above `$400K`, indicating that top-tier expertise in this field is highly rewarded.
@@ -347,12 +349,14 @@ plt.show()
 Here's the breakdown of the highest-paid & most in-demand skills for data analysts in the US:
 ![Highest Paid & Most In-Demand Skills for Data Analyst in the US](https://github.com/amitkr209/Python_Data_Project/blob/main/3_Project/Images/Highest%20Paid%20%26%20Most%20In-Demand%20Skills%20for%20Data%20Analyst%20in%20the%20US.png)
 
+*Two separate bar graphs visualizing the highest paid skills and most-in demand skills for data analysts in the US.*
+
 ### Insights:
 - **Skill Value vs. Demand**: There is a noticeable distinction between the skills that command the highest pay and those that are most in demand. For example, *dplyr, Bitbucket, and GitLab* are among the highest-paid but do not appear on the most in-demand list. Conversely, *Python and Tableau* are highly in demand but offer slightly lower median salaries compared to niche skills.
 
 - **Niche Skills Premium**: Specialized skills such as those related to *blockchain (Solidity), NLP (Hugging Face), and automation (Ansible)* are commanding higher salaries, possibly due to the lower supply of qualified professionals in these areas.
 
--- **Core Skills Dominance**: Despite the rise of niche skills, core tools like *Python, SQL, and Tableau* remain in high demand, indicating that they are essential for Data Analysts across the industry.
+- **Core Skills Dominance**: Despite the rise of niche skills, core tools like *Python, SQL, and Tableau* remain in high demand, indicating that they are essential for Data Analysts across the industry.
 
 - **Communication Tools**: The presence of *PowerPoint and Word* in the in-demand list highlights that effective communication and the ability to convey insights clearly are crucial components of a Data Analyst's role.
 
@@ -374,6 +378,8 @@ plt.show()
 ```
 ### Result:
 ![Salary Distribution of Data Jobs in India](https://github.com/amitkr209/Python_Data_Project/blob/main/3_Project/Images/Salary%20Distribution%20of%20Data%20Jobs%20in%20India.png)
+
+*Box plot visualizing the salary distributions for the top 6 data job titles.* 
 
 ### Insights:
 - **Senior Data Scientist is the highest-paid role**, the median salary for Senior Data Scientists is significantly higher than other roles, around `$160K` per year, indicating that this position commands the highest compensation in the Indian data job market.
@@ -400,9 +406,10 @@ plt.show()
 ## Investigate Median Salary Vs Skill for Data Analysts in Globally
 Next, I narrowed my analysis and focused only on data analyst roles. I looked at the highest-paid skills and the most in-demand skills. I used two bar charts to showcase these.
 
-*Note: We excluded data from **India** because the number of data jobs with non-null values in `salary_year_avg` is very limited. Including this data could skew the analysis and lead to misleading conclusions.
+*Note:*
+*We excluded data from **India** because the number of data jobs with non-null values in `salary_year_avg` is very limited. Including this data could skew the analysis and lead to misleading conclusions.*
 
-we conducted our analysis using data from the global market to ensure more accurate and comprehensive insights.*
+*We conducted our analysis using data from the global market to ensure more accurate and comprehensive insights.*
 
 ### Visualize Data
 ``` python
@@ -441,6 +448,8 @@ plt.show()
 ### Result:
 Here's the breakdown of the highest-paid & most in-demand skills for data analysts globally:
 ![Highest Paid & Most In-Demand Skills for Data Analyst Globally](https://github.com/amitkr209/Python_Data_Project/blob/main/3_Project/Images/Highest%20Paid%20%26%20Most%20In-Demand%20Skills%20for%20Data%20Analyst%20Globally.png)
+
+*Two separate bar graphs visualizing the highest paid skills and most-in demand skills for data analysts globally.*
 
 ### Insights:
 - **Niche Skills Premium**: Specialized skills like *svs, Solidity, dplyr, Bitbucket, and GitLab* command the highest salaries, likely due to their specialized nature and lower supply of skilled professionals.
