@@ -481,7 +481,7 @@ To identify the most optimal skills to learn ( the ones that are the highest pai
 
 View my notebook with detailed steps here: [5_Optimal_Skill](https://github.com/amitkr209/Python_Data_Project/blob/main/3_Project/5_Optimal_Skill.ipynb).
 
-### Visvalize data for United States
+### Visualize data for United States
 ``` python
 from adjustText import adjust_text
 from matplotlib.ticker import PercentFormatter
@@ -580,7 +580,7 @@ plt.show()
 ### Insights:
 - **Cloud and Big Data**: Skills related to cloud platforms (*Azure, AWS*) and big data technologies (*Spark*) are in high demand and offer competitive salaries in the Indian market.
 
--- **Programming Basics**: *Python and R* are essential programming languages indicate a greater emphasis on foundational skills in the Indian market.
+- **Programming Basics**: *Python and R* are essential programming languages indicate a greater emphasis on foundational skills in the Indian market.
 
 - **Data Visualization and Business Intelligence**: *Tableau and Power BI* are essential tools for data visualization and business intelligence, and their demand and salary indicating their universal value in the field.
 
