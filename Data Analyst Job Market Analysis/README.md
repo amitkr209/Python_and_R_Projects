@@ -76,7 +76,7 @@ Each Jupyter notebook for this project aimed at investigating specific aspects o
 ## 1.  Basic Exploratory Data Analysis
 To bеgin thе analysis of thе data analyst job markеt in India, wе pеrformеd basic еxploratory data analysis (EDA) to gain initial insights into thе structurе and trеnds within thе datasеt.
 
-View my notebook with detailed steps here: [01_EDA](https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Analysis/01_EDA.ipynb).
+View my notebook with detailed steps here: [01_EDA](https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/01_EDA.ipynb).
 
 ### What are the top skills required for Data Analyst roles?
 #### Visualize Data
@@ -107,7 +107,7 @@ plt.show()
 ```
 
 #### Result:
-<img src="https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Analysis/Images/Top%20Skills.png" alt="Top Skills for Data Analyst" style="width: 50%; height: auto;">
+<img src="https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/Images/Top%20Skills.png" alt="Top Skills for Data Analyst" style="width: 50%; height: auto;">
 
 #### Insights:
 - **SQL** is thе most in-dеmand skill, appеaring in ovеr `3,000 job postings`, making it a non-nеgotiablе corе rеquirеmеnt for Data Analyst rolеs in India.
@@ -169,7 +169,7 @@ plt.show()
 #### Results:
 | Top Companies | Top Locations |
 |---|---|
-| <img src="https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Analysis/Images/Top%20Conpanies.png" alt="Top Campanies" style="width: 100%; height: auto;"> | <img src="https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Analysis/Images/Top%20Location.png" alt="Top Locations" style="width: 100%; height: auto;"> |
+| <img src="https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/Images/Top%20Conpanies.png" alt="Top Campanies" style="width: 100%; height: auto;"> | <img src="https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/Images/Top%20Location.png" alt="Top Locations" style="width: 100%; height: auto;"> |
 
 #### Insights:
 - Top Companies
@@ -211,7 +211,7 @@ plt.show()
 ```
 
 #### Result:
-<img src="https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Analysis/Images/Pie%20Chart.png" alt="Perks for Data Analyst" style="width: 50%; height: auto;">
+<img src="https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/Images/Pie%20Chart.png" alt="Perks for Data Analyst" style="width: 50%; height: auto;">
 
 #### Insights:
 - Work from Homе Status
@@ -228,7 +228,7 @@ plt.show()
 ## 2. What are the most in-demand skills for the top 3 most popular data roles?
 To find the most in-demand skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I should pay attention to depending on the role I'm targeting.
 
-View my notebook with detailed steps here: [2_Skill_Demand](https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Analysis/02_Sill_Demand.ipynb).
+View my notebook with detailed steps here: [2_Skill_Demand](https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/02_Sill_Demand.ipynb).
 
 ### Visualize Data for India
 ```python
@@ -269,7 +269,7 @@ plt.show()
 ```
 
 ### Result:
-<img src="https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Analysis/Images/Skill%20Demand.png" alt="Likelihood of Skills Requested in the India Job Postings" style="width: 50%; height: auto;">
+<img src="https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/Images/Skill%20Demand.png" alt="Likelihood of Skills Requested in the India Job Postings" style="width: 50%; height: auto;">
 
 *Horizontal Bar graph visualizing the top 3 data roles and their top 5 skills associated with each.*
 
@@ -295,7 +295,7 @@ plt.show()
 ## 3. How are in-demand skills trending for Data Analysts?
 To find how skills are trending in 2023 for Data Analysts, I filtered data analyst positions and grouped the skills by the month of the job postings. This got me the top 5 skills of data analysts by month, showing how popular skills were throughout 2023.
 
-View my notebook with detailed steps here: [3_Skills_Trends](https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Analysis/03_Skill_Trend.ipynb).
+View my notebook with detailed steps here: [3_Skills_Trends](https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/03_Skill_Trend.ipynb).
 
 ### Visualize Data for India
 ```python
@@ -329,7 +329,7 @@ plt.grid()
 plt.show()
 ```
 ### Result:
-<img src="https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Analysis/Images/Skill%20Trend.png" alt="Trending Top Skills for Data Analyst in the India" style="width: 50%; height: auto;">
+<img src="https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/Images/Skill%20Trend.png" alt="Trending Top Skills for Data Analyst in the India" style="width: 50%; height: auto;">
 
 *Line graph visualizing the trending top skills for data analysts in India in 2023.*
 
@@ -345,7 +345,7 @@ plt.show()
 ## 4. How well do jobs and skills pay for Data Analysts?
 To identify the highest-paying roles and skills, I only looked at jobs in India and looked at their median salary. But first, I looked at the salary distributions of common data jobs like Data Scientist, Data Engineer, and Data Analyst, to get an idea of which jobs are paid the most.
 
-View my notebook with detailed steps here: [4_Salary_Analysis](https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Analysis/04_Salary_Analysis.ipynb).
+View my notebook with detailed steps here: [4_Salary_Analysis](https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/04_Salary_Analysis.ipynb).
 
 ### Visualise Data for Salary Distribution for India
 ```python
@@ -371,7 +371,7 @@ plt.show()
 
 
 ### Result:
-<img src="https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Analysis/Images/Salary%20Distrubution.png" alt="Salary Distribution of Data Jobs in India" style="width: 50%; height: auto;">
+<img src="https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/Images/Salary%20Distrubution.png" alt="Salary Distribution of Data Jobs in India" style="width: 50%; height: auto;">
 
 *Box plot visualizing the salary distributions for the top 4 data job titles.* 
 
@@ -387,7 +387,7 @@ plt.show()
 ## Investigate Median Salary Vs Skill for Data Analysts in India
 Next, I narrowed my analysis and focused only on data analyst roles. I looked at the highest-paid skills and the most in-demand skills. I used two bar charts to showcase these.
 
-View my notebook with detailed steps here: [05_Median vs Skill Count](https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Analysis/05_Median%20vs%20Skill%20Count.ipynb).
+View my notebook with detailed steps here: [05_Median vs Skill Count](https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/05_Median%20vs%20Skill%20Count.ipynb).
 
 ### Visualize Data
 ``` python
@@ -439,7 +439,7 @@ plt.show()
 ### Results:
 Here's the breakdown of the highest-paid & most in-demand skills for data analysts in India:
 
-<img src="https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Analysis/Images/Median%20vs%20Skill%20Count.png" alt="[Highest Paid & Most In-Demand Skills for Data Analyst" style="width: 50%; height: auto;">
+<img src="https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/Images/Median%20vs%20Skill%20Count.png" alt="[Highest Paid & Most In-Demand Skills for Data Analyst" style="width: 50%; height: auto;">
 
 *Two separate bar graphs visualizing the highest-paid skills and most in-demand skills for data analysts in India.*
 
@@ -481,7 +481,7 @@ Here's the breakdown of the highest-paid & most in-demand skills for data analys
 ## 5. What is the most optimal skill to learn for Data Analysts?
 To identify the most optimal skills to learn (the ones that are the highest paid and highest in demand), I calculated the percentage of skill demand and the median salary of these skills. To easily identify which are the most optimal skills to learn.
 
-View my notebook with detailed steps here: [06_Optimal_Skills](https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Analysis/06_Optimal_Skills.ipynb).
+View my notebook with detailed steps here: [06_Optimal_Skills](https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/06_Optimal_Skills.ipynb).
 
 ### Visualize data
 ``` python
@@ -528,7 +528,7 @@ plt.show()
 
 ### Result
 
-<img src="https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Analysis/Images/Optimal%20Skills.png" alt="Most Optimal Skills for Data Analysts" style="width: 50%; height: auto;">
+<img src="https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/Images/Optimal%20Skills.png" alt="Most Optimal Skills for Data Analysts" style="width: 50%; height: auto;">
 
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analyst in India.*
 
