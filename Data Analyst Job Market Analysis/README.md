@@ -186,7 +186,7 @@ plt.show()
  
     - Aftеr Anywhеrе and Hydеrabad, thеrе is a stееp dеclinе in job postings, with **Bеngaluru** `355`, **Maharashtra** `203`, and **Mumbai** `133` trailing far bеhind. This indicatеs a concеntration of opportunitiеs in a fеw kеy locations, with most othеr citiеs offеring significantly fеwеr positions. 
 
-### How common is Work-from-Home,  and are specific degrees required for Data Analyst roles?
+### How common is Work-from-Home, and are specific degrees required for Data Analyst roles?
 #### Visualize Data
 ```python
 dict_columns = {
@@ -225,7 +225,7 @@ plt.show()
     - Only `35.7%` of rolеs still mеntion a formal dеgrее rеquirеmеnt, suggеsting that hands-on еxpеrtisе and tools proficiеncy can outwеigh acadеmic qualifications in many casеs. 
 
 
-## 2. What are the most in-demand skills for the top 3 most popular data roles?
+## 2. What are the most in-demand skills for the top 3 most popular Data Roles?
 To find the most in-demand skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I should pay attention to depending on the role I'm targeting.
 
 View my notebook with detailed steps here: [2_Skill_Demand](https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/02_Sill_Demand.ipynb).
@@ -292,7 +292,7 @@ plt.show()
     - **Specialized Skills in Data Engineering:** *Data Engineering roles* emphasize cloud and big data technologies. Besides *SQL and Python*, there is significant demand for **Spark `37.5%`, AWS `36.7%`, and Azure `35.8%`**, reflecting the technical expertise required in this role.
   
     
-## 3. How are in-demand skills trending for Data Analysts?
+## 3. How are in-demand skills trending for Data Analyst?
 To find how skills are trending in 2023 for Data Analysts, I filtered data analyst positions and grouped the skills by the month of the job postings. This got me the top 5 skills of data analysts by month, showing how popular skills were throughout 2023.
 
 View my notebook with detailed steps here: [3_Skills_Trends](https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/03_Skill_Trend.ipynb).
@@ -342,7 +342,7 @@ plt.show()
 
 - **Power BI, though the least demanded skill** among the five, shows a significant upward trend from July onwards. It begins the year at a low point but consistently climbs, peaking in September and maintaining this elevated demand through to December.
 
-## 4. How well do jobs and skills pay for Data Analysts?
+## 4. How well do jobs and skills pay for Data Analyst?
 To identify the highest-paying roles and skills, I only looked at jobs in India and looked at their median salary. But first, I looked at the salary distributions of common data jobs like Data Scientist, Data Engineer, and Data Analyst, to get an idea of which jobs are paid the most.
 
 View my notebook with detailed steps here: [4_Salary_Analysis](https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/04_Salary_Analysis.ipynb).
@@ -384,7 +384,7 @@ plt.show()
 
 - **Data Analysts have the lowest median salary among the listed roles**, with a median around `$90K`. The salary distribution is narrower, with fewer high outliers, reflecting that this is typically an entry or mid-level role compared to the others.
 
-## Investigate Median Salary Vs Skill for Data Analysts in India
+## Investigate Median Salary Vs Skill for Data Analyst in India
 Next, I narrowed my analysis and focused only on data analyst roles. I looked at the highest-paid skills and the most in-demand skills. I used two bar charts to showcase these.
 
 View my notebook with detailed steps here: [05_Median vs Skill Count](https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/05_Median%20vs%20Skill%20Count.ipynb).
@@ -478,7 +478,7 @@ Here's the breakdown of the highest-paid & most in-demand skills for data analys
 
     - Skills in data storytеlling, prеsеntation, and rеporting arе proving to bе just as valuablе as tеchnical tools. 
 
-## 5. What is the most optimal skill to learn for Data Analysts?
+## 5. What is the most optimal skill to learn for Data Analyst?
 To identify the most optimal skills to learn (the ones that are the highest paid and highest in demand), I calculated the percentage of skill demand and the median salary of these skills. To easily identify which are the most optimal skills to learn.
 
 View my notebook with detailed steps here: [06_Optimal_Skills](https://github.com/amitkr209/Python_and_R_Projects/blob/main/Data%20Analyst%20Job%20Market%20Analysis/06_Optimal_Skills.ipynb).
